@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navigation ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navigation a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start; 
+    gap: 30px;           
+    margin: 40px 20px;
+}
+
+.image-content {
+    flex: 0 0 430px; 
+}
+
+.profile-img {
+    width: 430px;        
+    height: 516px;
+    border-radius: 10px; 
+    object-fit: cover;
+}
+
+.text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;      
+    height: 516px;     
+}
+
+.text-content h3, 
+.skills-title {
+    text-align: center;
+    margin-top: 0;
+    font-size: 36px;
+    color: #ad8b65;
+}
+
+.text-content p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.skills-container { 
+    align-items: center;
+    display: flex; 
+    justify-content: center; 
+    gap: 70px; 
+    margin-top: 40px; 
+}
+
+.skill-column { 
+    width: 160px; 
+}
+
+.skill-column p { 
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 40px; 
+    text-align: left; 
+}
+
+.experience-list {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.8;
+    width: fit-content;
+    margin: 40px auto;
+    margin-top: 100px;
+}
+.contact-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 30px 0;   
+}
+
+.about-title,
+.education-title,
+.experience-title,
+.contact-title {
+    color: #ad8b65;
+}
+
+.education-title {
+    text-align: center;
+    margin-top: 0;
+    font-size: 36px;
+    color: #ad8b65;
+}
+
+.text-content h2 {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.education-title + h2 {
+    margin-top: 100px;
+}
